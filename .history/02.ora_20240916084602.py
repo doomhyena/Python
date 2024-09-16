@@ -7,5 +7,3 @@ def median(lista):
          x1 = rendezett[hossz//2]
          x2 = rendezett(hossz//2+1)
          x3 = (x1 + x2)/2
-
-         return round(x3, 1)
