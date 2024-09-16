@@ -38,14 +38,3 @@ def ossezg(szam):
 # ---------------------     
 def szoroz(x,y):
     return x * (2**y)
-# Hatványozás: Alapszám ** Kitevő
-"""
-
-def metudosnev(parameterek):
-    muveletek
-    return eredmenyvaltozo
-
-print(metudosnev(paraméretek))
-
-"""
-
