@@ -1,5 +1,3 @@
-"""
-
 import statistics
 
 def median(lista):
@@ -49,15 +47,3 @@ def a(lista):
         for j in str(i):
             if int(j) == 7:
                 return "Van hetes"
-        return "Nincs hetes"
-
-"""
-# -------------------------------------------------------- 
-
-def folyoor(lista):
-    rendezett = sorted(lista)
-    for i in range(len(rendezett)- 1):
-        if rendezett[i] == rendezett[i+1] or rendezett[-1] != rendezett[i]+1:
-            return False
-    return True     
-

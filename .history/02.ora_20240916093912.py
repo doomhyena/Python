@@ -56,8 +56,8 @@ def a(lista):
 
 def folyoor(lista):
     rendezett = sorted(lista)
-    for i in range(len(rendezett)- 1):
+    for i in range(rendezett- 1):
         if rendezett[i] == rendezett[i+1] or rendezett[-1] != rendezett[i]+1:
             return False
-    return True     
+    # ---     
 
