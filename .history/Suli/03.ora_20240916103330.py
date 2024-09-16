@@ -9,13 +9,8 @@ def dobasok(lista):
 def ismetlodok(lista):
     egyediek = []
     ismetlodok = []
-    
     for i in lista:
         if i not in egyediek:
             egyediek.append(i)
         else:
-            ismetlodok.append(i)
-    if (len(ismetlodok) > 0):
-        rendezett = sorted(ismetlodok)
-    return None
-    
+            ismetlodok.append(i)    

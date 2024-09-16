@@ -9,7 +9,6 @@ def dobasok(lista):
 def ismetlodok(lista):
     egyediek = []
     ismetlodok = []
-    
     for i in lista:
         if i not in egyediek:
             egyediek.append(i)
