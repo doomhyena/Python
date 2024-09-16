@@ -27,12 +27,4 @@ def xosszeg(lista, x):
             osszeg = osszeg + x
             sorszam = 0
             sorszam = sorszam + 1
-        return osszeg
-
-def ossezg(szam):
-    if szam % 2 == 1:
-        return True
-    else:
-        return False
-
-# ---------------------     
+        return osszeg    

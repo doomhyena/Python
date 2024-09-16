@@ -33,6 +33,4 @@ def ossezg(szam):
     if szam % 2 == 1:
         return True
     else:
-        return False
-
-# ---------------------     
+        return False 

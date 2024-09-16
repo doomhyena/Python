@@ -29,10 +29,4 @@ def xosszeg(lista, x):
             sorszam = sorszam + 1
         return osszeg
 
-def ossezg(szam):
-    if szam % 2 == 1:
-        return True
-    else:
-        return False
-
-# ---------------------     
+def ossezg(szam): 
