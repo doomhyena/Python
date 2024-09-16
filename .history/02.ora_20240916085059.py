@@ -14,7 +14,3 @@ def median(lista):
 
 def median(lista):
     return statistics.median(lista)
- 
- # --------------------------------------------------------
-
- 

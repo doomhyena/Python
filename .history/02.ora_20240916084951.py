@@ -11,10 +11,3 @@ def median(lista):
          x3 = (x1 + x2)/2
 
          return round(x3, 1)
-
-def median(lista):
-    return statistics.median(lista)
- 
- # --------------------------------------------------------
-
- 
