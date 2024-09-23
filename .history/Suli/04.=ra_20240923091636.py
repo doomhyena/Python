@@ -39,4 +39,4 @@ def list(kezd, veg):
     if kezd < veg:
         return...(ramge(...))
     else:
-        return...(ramge(...,-1))
+        return...(ramge(....-1))
