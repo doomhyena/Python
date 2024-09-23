@@ -177,7 +177,7 @@ próbákSzáma = 3
 while próbákSzáma > 0:
 #A konzol bekér egy számot, amit elrakunk a tipp változóba:
     tipp = int(input("Tippelj:"))
-    if (tipp == véletenszám): #Ha a tipp talált
+    if (tipp == véletlenszám): #Ha a tipp talált
         print("Nyertél!") #akkor megjelenik a "Nyertél" üzenet
         break #és idő előtt megtörik a while ciklus
     else: #egyéb esetben, tehát ha nem találtuk el
