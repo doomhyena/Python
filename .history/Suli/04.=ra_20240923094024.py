@@ -45,4 +45,4 @@ def egydiak(lista):
     for i in lista:
         if  lista.cout(i) == 1:
             megoldaslista.append(i)
-    return megoldaslista         
+        return megoldaslista    

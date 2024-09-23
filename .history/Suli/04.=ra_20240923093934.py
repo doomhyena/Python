@@ -43,6 +43,6 @@ def list(kezd, veg):
 def egydiak(lista):
     megoldaslista = []
     for i in lista:
-        if  lista.cout(i) == 1:
-            megoldaslista.append(i)
-    return megoldaslista         
+        if  lista.cout(i):
+            ...
+        return megoldaslista    
