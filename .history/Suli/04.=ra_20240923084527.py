@@ -17,11 +17,3 @@ Pl.: 1 2 3 4 5 6 7
 
 def sporol(ar, toke, kezd):
     osszeg, napok = 0, 0
-    ar -= toke
-
-
-    while osszeg < ar:
-        i = kezd + napok/7 if not napok%7 else i+1
-        osszeg += i
-        napok += 1
-    return napok    
