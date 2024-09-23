@@ -47,14 +47,9 @@ def egydiak(lista):
             megoldaslista.append(i)
     return megoldaslista         
 
-# --------------------------------------------------
-
 def jegyszam(n):
     megoldas, szam, 1, n//10
     while szam:
         szam //= 10
         megoldas += 1
     return megoldas    
-
-# --------------------------------------------------
-
