@@ -41,7 +41,7 @@ def list(kezd, veg):
 # --------------------------------------------------
 
 def egydiak(lista):
-    megoldaslista = []
+    egoldolista = []
     for i in lista:
         if ...:
             ...
