@@ -64,5 +64,3 @@ def szamhossz(n):
     for i in alt:
         szamol += szamol
     return szamol    
-
-# --------------------------------------------------
