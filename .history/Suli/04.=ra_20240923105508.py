@@ -79,8 +79,6 @@ def egyformajegy(szam):
 # --------------------------------------------------
 
 
-"""
-
 def egyformajegyketto(szam):
     szam = list(str(szam))
     boolista = []
@@ -92,16 +90,3 @@ def egyformajegyketto(szam):
         else: 
             boolista.append(False)    
         return False if False boolista else True
-
-"""
-# --------------------------------------------------
-
-def osszegparossag(num):
-    szam = list(str(szam))
-    jegyekisszege = 0
-    for i in szam:
-        jegyekisszege += 1
-    if jegyekisszege%2 == 1:
-        return "Pűros"
-    else:
-        return "Páratlan"    

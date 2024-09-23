@@ -79,29 +79,14 @@ def egyformajegy(szam):
 # --------------------------------------------------
 
 
-"""
-
 def egyformajegyketto(szam):
     szam = list(str(szam))
     boolista = []
-    for i in range(len(n)):
-        if >= len(len)-1:
-            break
-        elif n[i] == n[i+1]:
-            boolista.append(True)
-        else: 
-            boolista.append(False)    
-        return False if False boolista else True
-
-"""
-# --------------------------------------------------
-
-def osszegparossag(num):
-    szam = list(str(szam))
-    jegyekisszege = 0
-    for i in szam:
-        jegyekisszege += 1
-    if jegyekisszege%2 == 1:
-        return "Pűros"
-    else:
-        return "Páratlan"    
+    for i in range(len(n))
+    if >= len(len)-1:
+        break
+    elif n[i] == n[i+1]:
+        boolista.append(True)
+    else: 
+        boolista.append(False)    
+    return False if False boolista else True
