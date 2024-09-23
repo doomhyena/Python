@@ -75,7 +75,3 @@ def egyformajegy(szam):
         else:
             continue
     return True    
-
-# --------------------------------------------------
-
-

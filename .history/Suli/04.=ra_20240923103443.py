@@ -67,15 +67,5 @@ def szamhossz(n):
 
 # --------------------------------------------------
 
-def egyformajegy(szam):
-    for jegy in str(szam):
-        if jegy != str(szam)[0]:
-            return False
-            break
-        else:
-            continue
-    return True    
-
-# --------------------------------------------------
 
 
