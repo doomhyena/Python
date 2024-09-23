@@ -30,13 +30,13 @@ def sporol(ar, toke, kezd):
 # 2.Feladat
 # --------------------------------------------------
 
+
+
+
+
+
 def list(kezd, veg):
     if kezd < veg:
         return list(range(kezd, veg+1))
     else:
         return list(range(kezd, veg-1, -1))
-    
-# --------------------------------------------------
-# 3.Feladat
-# --------------------------------------------------
-
