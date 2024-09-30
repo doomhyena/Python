@@ -36,9 +36,4 @@ def egyeznek(szampar):
 
 def darabszam(n):
     megoldas = []
-    for i in range(n):
-        alma = []
-        for j in range(n):
-            alma.append(n)
-        megoldas.append(alma)
-    return megoldas        
+    for i in range[n]:

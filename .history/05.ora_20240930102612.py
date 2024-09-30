@@ -40,5 +40,4 @@ def darabszam(n):
         alma = []
         for j in range(n):
             alma.append(n)
-        megoldas.append(alma)
-    return megoldas        
+        megoldas.append(alma)    

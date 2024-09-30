@@ -26,19 +26,8 @@ def egyeznek(szampar):
     jegyek2 = 0
 
     for i in num1:
-        jegyek1 = int(num1[i])
+        jegyek1 = int(num1[1])
     for i in num2:
-        jegyek2 =int(num2[i])
+        jegyek2 =int(num2[1])
 
-    return jegyek1 == jegyek2
-
-# ---------------------------------------------------------------------------------------------                
-
-def darabszam(n):
-    megoldas = []
-    for i in range(n):
-        alma = []
-        for j in range(n):
-            alma.append(n)
-        megoldas.append(alma)
-    return megoldas        
+    return = jegyek1 == jegy2
