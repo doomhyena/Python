@@ -39,8 +39,8 @@ def darabszam(n):
     for i in range(n):
         alttomb = []
         for j in range(n):
-            alttomb.append(n)
-        megoldas.append(alttomb)
+            alma.append(n)
+        megoldas.append(alma)
     return megoldas        
 
 # ---------------------------------------------------------------------------------------------                

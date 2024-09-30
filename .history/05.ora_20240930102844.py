@@ -37,13 +37,11 @@ def egyeznek(szampar):
 def darabszam(n):
     megoldas = []
     for i in range(n):
-        alttomb = []
+        alma = []
         for j in range(n):
-            alttomb.append(n)
-        megoldas.append(alttomb)
+            alma.append(n)
+        megoldas.append(alma)
     return megoldas        
 
 # ---------------------------------------------------------------------------------------------                
 
-def darabszam2(n):
-    return [[n] * n] * n

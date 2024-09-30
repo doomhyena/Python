@@ -40,7 +40,7 @@ def darabszam(n):
         alttomb = []
         for j in range(n):
             alttomb.append(n)
-        megoldas.append(alttomb)
+        megoldas.append(alma)
     return megoldas        
 
 # ---------------------------------------------------------------------------------------------                
