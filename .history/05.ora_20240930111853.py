@@ -73,21 +73,8 @@ def elofordulas(start, veg, ertek):
     return szamol    
 
 # ---------------------------------------------------------------------------------------------                
-"""
 
 lista1 = ()
 lista2 = ()
 
 egyformak = set(lista1) == set(lista2)
-
-if egyformak:
-    for i in range(0, len(lista1)):
-        if lista1[i] == lista2[i]:
-            return False
-    return True
-else: 
-    return False   
-
-"""     
-# ---------------------------------------------------------------------------------------------                
-

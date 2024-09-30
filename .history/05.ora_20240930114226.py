@@ -73,7 +73,6 @@ def elofordulas(start, veg, ertek):
     return szamol    
 
 # ---------------------------------------------------------------------------------------------                
-"""
 
 lista1 = ()
 lista2 = ()
@@ -86,8 +85,5 @@ if egyformak:
             return False
     return True
 else: 
-    return False   
-
-"""     
-# ---------------------------------------------------------------------------------------------                
+    return False        
 
