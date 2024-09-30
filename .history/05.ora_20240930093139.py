@@ -1,5 +1,5 @@
 def halmazok(halmazok, szam):
-    szamol = 0
+    szamol =0
     for i in halmazok:
         if i[1] == szam or i[1] == szam:
             szamol += 1
@@ -21,13 +21,4 @@ def matrixos(sor, oszlop, *karakter):
 
 def egyeznek(szampar):
     num1 = str(szampar[0])
-    num2 = str(szampar[1]) 
-    jegyek1 = 0
-    jegyek2 = 0
-
-    for i in num1:
-        jegyek1 = int(num1[1])
-    for i in num2:
-        jegyek2 =int(num2[1])
-
-    return szampar    
+    num2 = str(szampar[0])

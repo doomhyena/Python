@@ -26,8 +26,6 @@ def egyeznek(szampar):
     jegyek2 = 0
 
     for i in num1:
-        jegyek1 = int(num1[1])
+        jegyek1 = int(num1[i])
     for i in num2:
-        jegyek2 =int(num2[1])
-
-    return szampar    
+        jegyek2 =int(num2[i])

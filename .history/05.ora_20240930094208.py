@@ -29,5 +29,3 @@ def egyeznek(szampar):
         jegyek1 = int(num1[1])
     for i in num2:
         jegyek2 =int(num2[1])
-
-    return szampar    
