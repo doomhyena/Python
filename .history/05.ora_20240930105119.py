@@ -67,10 +67,7 @@ def elofordulas(start, veg, ertek):
     szamol = 0
     for i in intervallum:
         szovegkent = str(abs(i))
-        if szovegkent in intervallum :
-            szamol += 1
+        if ...:
+            ...
         continue
     return szamol    
-
-# ---------------------------------------------------------------------------------------------                
-

@@ -71,6 +71,3 @@ def elofordulas(start, veg, ertek):
             szamol += 1
         continue
     return szamol    
-
-# ---------------------------------------------------------------------------------------------                
-

@@ -63,14 +63,4 @@ def vizsgal(egyenlőtlenseg):
 # ---------------------------------------------------------------------------------------------                
 
 def elofordulas(start, veg, ertek):
-    intervallum = range(start, veg + 1)
-    szamol = 0
-    for i in intervallum:
-        szovegkent = str(abs(i))
-        if szovegkent in intervallum :
-            szamol += 1
-        continue
-    return szamol    
-
-# ---------------------------------------------------------------------------------------------                
-
+    

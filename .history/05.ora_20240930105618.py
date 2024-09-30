@@ -72,5 +72,5 @@ def elofordulas(start, veg, ertek):
         continue
     return szamol    
 
-# ---------------------------------------------------------------------------------------------                
-
+eredmeny = elofordulas(10, 25, 2)
+print(eredmeny)
