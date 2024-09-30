@@ -53,9 +53,6 @@ def vizsgal(egyenlőtlenseg):
 
     for i in range(0, len(lista)-2, 2):
         if lista[i + 4] == '>':
-            if lista[i] <= lista[i+2]:
-                return False
-            elif lista[i + 1] == '<':
-                if lista[i] >= lista [i + 2]:
-                    return False
-        return True        
+            if lista[i] <= lista[i+2]
+
+return false
