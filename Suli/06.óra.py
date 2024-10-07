@@ -24,8 +24,8 @@ Feladat: Ez egy példa mondat --> Ez egy ***** ******
 
 def cenzura(mondat):
     for szo in mondat.split():
-        if len(szo) >= 4:
-            szo.replace(szo, '*')
+        if len(szo) > 4:
+            mondat = mondat.replace(szo, "*"*len(szo))
         return mondat
 
 #print(cenzura('Ez egy példa mondat'))
