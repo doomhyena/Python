@@ -60,8 +60,8 @@ print(lista2)
 
 def penzes(regi, uj):
     regi = int(regi[1:])
-    uj = int(regi[1:])
+    uj = int(uj[1:])
     szazalek = int(100*uj/regi-100)
     return '{}%-os,'.format(abs(szazalek), 'növekedés' if szazalek > 0 else 'csökkenés')
 
-print(penzes('$400','É700'))
+print(penzes('$400','$700'))
