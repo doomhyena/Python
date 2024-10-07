@@ -66,12 +66,14 @@ Pl.: atlagszohossz("Ez egy példa mondat") -->  4.00
 
 '''
 
+'''
 def atlaghossz(mondat):
+
     spec_karakterek = ',,:?!-,()'
 
     szavak = mondat.split()
 
-    szohossz = []
+    szohossz = 0
 
     for szo in szavak:
         hossz = 0
@@ -79,10 +81,36 @@ def atlaghossz(mondat):
             if not karakter in spec_karakterek:
                 hossz += 1
         if hossz > 0:
-            szohossz.append(hossz)
+            szohossz += hossz
 
         atlag = round(sum(szohossz) / len(szohossz), 2)
 
         return atlag
 
 print(atlaghossz("Ez egy példa mondat, mert megtehetem."))
+
+'''
+def atlaghossz2(mondat):
+    spec_karakterek = ',:?!-.'
+
+    szavak = mondat.split()
+
+    szohossz_osszeg = 0
+    szo_db = 0
+
+    for szo in szavak:
+        hossz = 0
+        for karakter in szo:
+            if not karakter in spec_karakterek:
+                hossz += 1
+
+        if hossz > 0:
+            szohossz_osszeg += hossz
+            szo_db += 1
+
+    if szo_db > 0:
+        atlag = round(szohossz_osszeg / szo_db, 2)
+        return atlag
+
+print(atlaghossz2("Ez egy példa mondat."))
+print(atlaghossz2("Ez egy példa mondat, mert megtehetem."))
