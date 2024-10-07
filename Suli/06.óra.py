@@ -28,7 +28,7 @@ def cenzura(mondat):
             mondat = mondat.replace(szo, "*" * len(szo))
         return mondat
 
-print(cenzura('Ez egy példa mondat, consectetur'))
+#print(cenzura('Ez egy példa mondat, consectetur'))
 
 def cenzura2(mondat):
     szavak = mondat.split()
@@ -37,4 +37,4 @@ def cenzura2(mondat):
             szavak[i] = "*" * len(szavak[i])
     return " ".join(szavak)
 
-print(cenzura('Ez egy példa mondat, consectetur'))
+#print(cenzura('Ez egy példa mondat, consectetur'))
