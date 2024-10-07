@@ -10,3 +10,14 @@ def mondatos(mondat):
 print(mondatos("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et ante lorem. Aenean consequat egestas nisl, id facilisis nunc placerat eget. Proin nec congue sem"))
 
 #-------------------------------------------------
+
+szo = 'alma'
+szo = szo.replace('a', 'x')
+
+print(szo)
+
+"""
+
+Feladat: Ez egy példa mondat --> Ez egy p*ld* m*nd*t
+
+"""
