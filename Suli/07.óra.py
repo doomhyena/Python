@@ -29,4 +29,16 @@ Pl.: (['1+1=2', '2+2=3', '3+3=6']) --> ['1+1=2', '3+3=6']
 
 '''
 
+def egyenlet(egyenletlista):
+    igazegyenletek = []
+    for i in egyenletlista:
+        a, b = i.split('=')
+        if eval(a) == int(b):
+            igazegyenletek.append(i)
+    return igazegyenletek
+
+print(egyenlet(['1+1=2', '2+2=3', '3+3=6']))
+
+#----------------------------------------------------------------------------------------------------------------
+
 
