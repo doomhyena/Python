@@ -35,8 +35,8 @@ class Beteg:
 
 class Alkalmazott:
     def __init__(self, vezetek, kereszt):
-        self.vezetek
-        self.kereszt
+        self.vezetek = vezetek
+        self.kereszt = kereszt
         self.teljes = f"{vezetek} {kereszt}"
         self.email = f"{vezetek.lower()}{kereszt.lower()}@gmail.com"
 
@@ -46,4 +46,18 @@ class User:
         self.finev = finev
         User.user_numbers += 1
 
-
+class Katona:
+    def __init__(self, nev, kor, magassag, suly):
+        self.nev = nev
+        self.kor = kor
+        self.magassag = f"{magassag} cm"
+        self.suly = f"{suly} kg"
+    katonak = 0
+    def __int__(self, finev):
+        self.finev = finev
+        Katona.katonak += 1
+    def sablon(self):
+        return f"{Katona.nev} {Katona.kor} éves, {Katona.magassag} magas és {Katona.suly}."
+    def tagolt(adat):
+        nev, kor, magassag, suly = (adat).split(":")
+        return Beteg(nev, kor, magassag, suly)
