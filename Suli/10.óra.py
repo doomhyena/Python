@@ -32,3 +32,18 @@ class Beteg:
 #b = Beteg.tagolt('1-Béla-Hasfájás-Gyomorrontás')
 #print(b.panasz)
 
+
+class Alkalmazott:
+    def __init__(self, vezetek, kereszt):
+        self.vezetek
+        self.kereszt
+        self.teljes = f"{vezetek} {kereszt}"
+        self.email = f"{vezetek.lower()}{kereszt.lower()}@gmail.com"
+
+class User:
+    user_numbers = 0
+    def __init__(self, finev):
+        self.finev = finev
+        User.user_numbers += 1
+
+
