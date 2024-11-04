@@ -51,9 +51,15 @@ alk = Alkalmazott("Kovács János", 35, 250000)
 
 print(f"A nevem {alk.nev}, {alk.kor} vagyok, {alk.fizetes}FT keresek.")
 
-class Osztály:
+class Tanulo:
     def __init__(self, id, nev, evfolyam, kepzes):
         self.id = id
         self.nev = nev
         self.evfolyam = evfolyam
         self.kepzes = kepzes
+    def lekerdezes(self):
+        return self.nev
+
+tanulo = Tanulo(4, "Csontos Kincső", 13, "Szoftverfejlesztő- és Tesztelő")
+
+print(f" {tanulo.id} -> {tanulo.nev}, {tanulo.evfolyam} évfolyamba jár, és {tanulo.kepzes}-nak/nek tanul.")
