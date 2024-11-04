@@ -6,15 +6,27 @@ class Tanulo:
         self.kepzes = kepzes
     def lekerdezes(self):
         return self.nev
+    def tagolt(adat):
+        id, nev, evfolyam, kepzes = (adat).split("/")
+        return Tanulo(id, nev, evfolyam, kepzes)
 
 tanulo = Tanulo(4, "Csontos Kincső", 13, "Szoftverfejlesztő- és Tesztelő")
-
-# print(f" {tanulo.id} -> {tanulo.nev}, {tanulo.evfolyam} évfolyamba jár, és {tanulo.kepzes}-nak/nek tanul.")
-
-def tagolt(adat):
-    id, nev, evfolyam, kepzes = (adat).split("/")
-    return Tanulo(id, nev, evfolyam, kepzes)
-
 tt = Tanulo.tagolt("04/Csontos Kincső/13/Szoftverfejlesztő- és Tesztelő")
 
-# print(tt)
+print(tt)
+print(f" {tanulo.id} -> {tanulo.nev}, {tanulo.evfolyam} évfolyamba jár, és {tanulo.kepzes}-nak/nek tanul.")
+
+
+class Beteg:
+    def __init__(self, szig, nev, panasz, diagnozis):
+        self.szig = szig
+        self.nev = nev
+        self.panasz = panasz
+        self.diagnozis = diagnozis
+    def kiiras(self):
+        return self.szig
+    def tagolt(adat):
+        szig, nev, panasz, diagnozis = (adat).split("/")
+        return Beteg(szig, nev, panasz, diagnozis)
+
+
