@@ -20,3 +20,15 @@ class BankAdatok:
         print(f"\nSzámlaszám: {self.bankszamlaszam}")
         print(f"\nNyitás dátuma: {self.nyitas_datum}")
         print(f"\nEgyenleg: {self.egyenleg}")
+
+class Leltar:
+    def __init__(self):
+        self.leltar = {}
+    def hozzaad(self, id, megnevezes, darabszam, ar):
+        self.leltar[id] = {"Termék neve":megnevezes, "Darabaszám":darabszam, "Ár":ar}
+    def modosit(selfself, id, darabszam, ar):
+        if id in self.leltar:
+            self.leltar[id]["Darabszám"] = darabszam
+            self.leltar[id]["Ár"] = ar
+        else:
+            print("Nem található a keresett termék. ")
