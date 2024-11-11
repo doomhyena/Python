@@ -50,6 +50,9 @@ class Etterem:
     def foglalas_kiir(self):
         for asztal in self.asztal_foglalas:
             print(f"Asztal {asztal}")
+    def rendeles_kiir(self):
+        for rendeles in self.rendelesek:
+            print(f"Asztal: {asztalszam}: {rendeles}")
 
 etterem1 = Etterem()
 
