@@ -32,3 +32,12 @@ class Leltar:
             self.leltar[id]["Ár"] = ar
         else:
             print("Nem található a keresett termék. ")
+    def megnez(self, id):
+        if id in self:
+            self.leltar[id]["Megnevezés"] = megnevezes
+            self.leltar[id]["Darabszám"] = darabszam
+            self.leltar[id]["Ár"] = ar
+            return f"Terméknév: {elem['Termék_neve']}"
+        else:
+            print("Nem található a keresett termék. ")
+
