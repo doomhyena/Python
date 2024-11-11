@@ -19,3 +19,17 @@ class Alkalmazott:
         print(f"\n Részleg: ", self.reszleg)
         print('----------------------------')
 
+alkalmazott1 = Alkalmazott("Ádám", "A1", 200000 , "Marketing")
+alkalmazott2 = Alkalmazott("Béla", "B1",200000, "Sales")
+alkalmazott3 = Alkalmazott("Csaba", "C1",200000, "IT")
+alkalmazott4 = Alkalmazott("Dani", "D1",200000, "Vezetőség")
+
+print(alkalmazott1.adatkiir())
+print(alkalmazott2.adatkiir())
+print(alkalmazott3.adatkiir())
+print(alkalmazott4.adatkiir())
+
+alkalmazott1.reszlegcser("IT")
+print(alkalmazott1.reszleg)
+alkalmazott2.fizuszamol(250000, 52)
+print(alkalmazott2.fizetes)
