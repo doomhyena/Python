@@ -35,3 +35,23 @@ alkalmazott2.fizuszamol(250000, 52)
 print(alkalmazott2.fizetes)
 """
 
+class Etterem:
+    def __init__(self):
+        self.menu_elemek = {}
+        self.asztal_foglalas = []
+        self.rendelesek = []
+    def menu_felvisz(self, etel, ar):
+        self.menu_elemek[etel] = ar
+    def foglalasok(self, asztal_szam):
+        self.asztal_foglalas.append(asztal_szam)
+    def etlap_kiir(self):
+        for etel, ar in self.menu_elemek.itemes():
+            print(f"{etel}: {ar}")
+
+etterem1 = Etterem()
+
+etterem1.menu_felvisz("Hamburger", 1000)
+etterem1.menu_felvisz("Pizza", 1500)
+etterem1.menu_felvisz("Cola", 500)
+
+etterem1.foglalasok(1)
