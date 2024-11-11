@@ -47,6 +47,9 @@ class Etterem:
     def etlap_kiir(self):
         for etel, ar in self.menu_elemek.itemes():
             print(f"{etel}: {ar}")
+    def foglalas_kiir(self):
+        for asztal in self.asztal_foglalas:
+            print(f"Asztal {asztal}")
 
 etterem1 = Etterem()
 
