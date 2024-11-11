@@ -18,7 +18,7 @@ class Alkalmazott:
         print(f"\n Fizetés: ", self.fizetes)
         print(f"\n Részleg: ", self.reszleg)
         print('----------------------------')
-
+"""
 alkalmazott1 = Alkalmazott("Ádám", "A1", 200000 , "Marketing")
 alkalmazott2 = Alkalmazott("Béla", "B1",200000, "Sales")
 alkalmazott3 = Alkalmazott("Csaba", "C1",200000, "IT")
@@ -33,3 +33,5 @@ alkalmazott1.reszlegcser("IT")
 print(alkalmazott1.reszleg)
 alkalmazott2.fizuszamol(250000, 52)
 print(alkalmazott2.fizetes)
+"""
+
