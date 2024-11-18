@@ -93,6 +93,7 @@ ido_kulonbseg = ido_kulonbseg(kezdo_ido, vegido)
 print(f"Az első és az utolsó észlelés között {ido_kulonbseg} idő telt el.")
 
 feladat(5)
+
 def teglalap_sarkai(adatok):
     x_min = min(adat[3] for adat in adatok)
     x_max = max(adat[3] for adat in adatok)
