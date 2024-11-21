@@ -106,7 +106,6 @@ print(f"A téglalap bal alsó sarka: {bal_also_sarok}")
 print(f"A téglalap jobb felső sarka: {jobb_felso_sarok}")
 
 feladat(6)
-"""
 def elmozdulasok_osszege(adatok):
     osszeg = 0
     for i in range(len(adatok) - 1):
@@ -118,5 +117,3 @@ def elmozdulasok_osszege(adatok):
 
 elmozdulasok_osszege = elmozdulasok_osszege(adatok)
 print(f"A jeladó elmozdulásainak összege: {elmozdulasok_osszege} egység")
-
-"""
