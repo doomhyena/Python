@@ -48,6 +48,20 @@ def terulet_es_atlagos_melyseg(melyseg_adatok):
     return terulet, atlagos_melyseg
 
 feladat(4)
+def legnagyobb_melyseg(melyseg_adatok):
+    max_melyseg = 0
+    max_pontok = []
+
+    for i in range(len(melyseg_adatok)):
+        for j in range(len(melyseg_adatok[i])):
+            if melyseg_adatok[i][j] > max_melyseg:
+                max_melyseg = melyseg_adatok[i][j]
+                max_pontok = [(i + 1, j + 1)]  # 1-alapú indexelés
+            elif melyseg_adatok[i][j] == max_melyseg:
+                max_pontok.append((i + 1, j + 1))
+
+    return max_melyseg, max_pontok
+
 feladat(5)
 feladat(6)
 
