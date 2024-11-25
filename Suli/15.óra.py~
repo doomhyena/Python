@@ -88,5 +88,6 @@ def sávdiagram(oszlop_index, melyseg_adatok):
     with open('diagram.txt', 'w') as f:
         for i in range(len(melyseg_adatok)):
             melyseg = melyseg_adatok[i][oszlop_index - 1]
+            # Kerekítés méterben
             meter_melyseg = round(melyseg / 10)
             f.write(f"{i + 1:02d} {'*' * meter_melyseg}\n")
