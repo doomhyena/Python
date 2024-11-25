@@ -1,0 +1,18 @@
+Feladat1:
+Hozz létre egy Könyv osztályt, amely eltárolja a művek címét, íróját, oldalszámát és a megjelenés évét.
+	- Legyen nyomonkövetve a létrehozott példányok száma.
+	- Egy segédfüggvény írja ki sablonmondatban a könyv címét, íróját és oldalszámát (pl. "X könyv 300 oldalas és XY írta.").
+	- Egy segédfüggvény tegye lehetővé, hogy ponttal tagolt szövegből is lehessen példányosítani.
+	- Egy segédfüggvény mondja meg, hogy az adott példányról egy klasszikus mű-e. (klasszikus az, ami 1900 előtt jelent meg).
+#--------
+Feladat2:
+Legyen egy 'Név' osztály, ami példányosításkor a vezeték- és keresztnevet, valamint az életkort kéri be, külön paraméterekként.
+	- Az init függvény gondoskodjon róla, hogy mindkét tárolt névrészlet nagy kezdőbetűvel rendelkezzen.
+	- Generálódjon egy teljes név tulajdonság is a megadott paraméterekből.
+	- Egy segédfüggvény generáljon egy monogramot az adott ember neve alapján (pl. Nagy János --> N. J.).
+	- Egy segédfüggvény fogalmazza meg egy mondatban, hogy emberünk kiskorú, fiatalkorú vagy nagykorú.
+#--------
+Feladat3:
+Hozz létre egy 'Számsor' osztályt, amely példányosításakor nem kell adatokat megadni.
+	- A példány feltöltéséért egy segédfüggvény feleljen, amely meghívásakor meg lehet adni egy darab számot, 
+		amit az felvisz az osztály egyetlen mögöttes paramétereként szolgáló számlistába.
