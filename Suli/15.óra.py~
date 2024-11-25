@@ -28,7 +28,7 @@ feladat(2)
 
 def kiir_melyseg(sor_index, oszlop_index, melyseg_adatok):
     melyseg = melyseg_adatok[sor_index - 1][oszlop_index - 1]
-    print(f"A {sor_index}. sor {oszlop_index}. oszlopában mért mélység: {melyseg} dm")
+    print(f"2. feladat: A {sor_index}. sor {oszlop_index}. oszlopában mért mélység: {melyseg} dm")
 
 feladat(3)
 
