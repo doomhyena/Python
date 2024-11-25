@@ -63,5 +63,26 @@ def legnagyobb_melyseg(melyseg_adatok):
     return max_melyseg, max_pontok
 
 feladat(5)
+
+def partvonal_hossza(melyseg_adatok):
+    hossza = 0
+    sorok = len(melyseg_adatok)
+    oszlopok = len(melyseg_adatok[0])
+
+    for i in range(sorok):
+        for j in range(oszlopok):
+            if melyseg_adatok[i][j] > 0:
+                # Ellenőrizzük a szomszédos cellákat
+                if i == 0 or melyseg_adatok[i - 1][j] == 0:  # Fent
+                    hossza += 1
+                if i == sorok - 1 or melyseg_adatok[i + 1][j] == 0:  # Lent
+                    hossza += 1
+                if j == 0 or melyseg_adatok[i][j - 1] == 0:  # Balra
+                    hossza += 1
+                if j == oszlopok - 1 or melyseg_adatok[i][j + 1] == 0:  # Jobbra
+                    hossza += 1
+
+    return hossza
+
 feladat(6)
 
