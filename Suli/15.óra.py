@@ -32,7 +32,20 @@ def kiir_melyseg(sor_index, oszlop_index, melyseg_adatok):
 
 feladat(3)
 
+def terulet_es_atlagos_melyseg(melyseg_adatok):
+    terulet = 0
+    osszes_melyseg = 0
+    osszes_pont = 0
 
+    for sor in melyseg_adatok:
+        for melyseg in sor:
+            if melyseg > 0:
+                terulet += 1
+                osszes_melyseg += melyseg
+                osszes_pont += 1
+
+    atlagos_melyseg = osszes_melyseg / osszes_pont if osszes_pont > 0 else 0
+    return terulet, atlagos_melyseg
 
 feladat(4)
 feladat(5)
