@@ -56,7 +56,7 @@ def legnagyobb_melyseg(melyseg_adatok):
         for j in range(len(melyseg_adatok[i])):
             if melyseg_adatok[i][j] > max_melyseg:
                 max_melyseg = melyseg_adatok[i][j]
-                max_pontok = [(i + 1, j + 1)]  # 1-alapú indexelés
+                max_pontok = [(i + 1, j + 1)]
             elif melyseg_adatok[i][j] == max_melyseg:
                 max_pontok.append((i + 1, j + 1))
 
@@ -72,17 +72,23 @@ def partvonal_hossza(melyseg_adatok):
     for i in range(sorok):
         for j in range(oszlopok):
             if melyseg_adatok[i][j] > 0:
-                # Ellenőrizzük a szomszédos cellákat
-                if i == 0 or melyseg_adatok[i - 1][j] == 0:  # Fent
+                if i == 0 or melyseg_adatok[i - 1][j] == 0:
                     hossza += 1
-                if i == sorok - 1 or melyseg_adatok[i + 1][j] == 0:  # Lent
+                if i == sorok - 1 or melyseg_adatok[i + 1][j] == 0:
                     hossza += 1
-                if j == 0 or melyseg_adatok[i][j - 1] == 0:  # Balra
+                if j == 0 or melyseg_adatok[i][j - 1] == 0:
                     hossza += 1
-                if j == oszlopok - 1 or melyseg_adatok[i][j + 1] == 0:  # Jobbra
+                if j == oszlopok - 1 or melyseg_adatok[i][j + 1] == 0:
                     hossza += 1
 
     return hossza
 
 feladat(6)
 
+def sávdiagram(oszlop_index, melyseg_adatok):
+    with open('diagram.txt', 'w') as f:
+        for i in range(len(melyseg_adatok)):
+            melyseg = melyseg_adatok[i][oszlop_index - 1]
+            # Kerekítés méterben
+            meter_melyseg = round(melyseg / 10)
+            f.write(f"{i + 1:02d} {'*' * meter_melyseg}\n")
